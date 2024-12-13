@@ -1,0 +1,319 @@
+body {
+    background-color: aliceblue !important;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.navbar-nav .nav-item {
+    border: 2px solid transparent; 
+    border-radius: 5px; 
+}
+
+.navbar-nav .nav-item:hover {
+    border-color: #0a66c8; 
+}
+
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+}
+
+h2 {
+    padding: 20px;
+}
+
+li a:hover {
+    transform: scale(1.1);
+}
+
+.col {
+    padding: 20px;
+    line-height: 2em;
+}
+
+.img-thumbnail {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+  margin-top: auto;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px #0a66c8;
+}
+
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+/* CSS for Income Tax Calculator */
+
+.calculator-section {
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 20px; 
+    border: 2px solid rgb(29, 29, 48); 
+    background-color: white; 
+}
+
+.calculator-section h1 {
+    color: rgb(29, 29, 48);
+    text-align: center;
+}
+
+.calculator-section div {
+    margin-bottom: 1em;
+}
+
+.calculator-section label {
+    display: inline-block;
+    width: 11em;
+    text-align: center;
+}
+
+.calculator-section input {
+    margin-left: 0.4em;
+    margin-right: 0.5em;
+}
+
+.calculator-section span {
+    color: red;
+}
+
+/* FAQ Page */
+.faq-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.faq-item {
+    text-align: left;
+    margin: 20px 30px 20px 30px;
+    padding: 10px 30px;
+}
+
+.faq-item h3 {
+    font-size: 1.2em;
+    color: #333;
+    cursor: pointer;
+}
+
+.faq-item a {
+    text-decoration: none;
+    color: #0a66c8;
+    font-weight: bold;
+}
+
+.faq-item a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.answer {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.answer.hide {
+    display: none;
+}
+
+
+/* Styles for the gallery section */
+#main-image {
+    max-width: 100%; 
+    height: auto; 
+    border: 2px solid #000; 
+    display: block; 
+    margin: 0 auto;
+}
+
+
+#gallery {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gallery ul {
+    padding: 0;
+    margin: 0;
+}
+
+#gallery ul li {
+    list-style-type: none;
+    margin-bottom: 10px;   
+} 
+
+#gallery ul li a {
+    text-decoration: none;
+    color: #0a66c8;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+
+#gallery ul li a:hover {
+    transform: scale(1.1); 
+}
+
+/* Image Swap Page Styles */
+
+
+#image-swap-page .thumbnails ul {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    padding: 0; 
+    list-style: none;
+    margin-bottom: 20px; 
+}
+
+#image-swap-page .thumbnails ul li img {
+    width: 80px; 
+    height: auto; 
+    cursor: pointer; 
+    transition: transform 0.2s ease; 
+}
+
+#image-swap-page .thumbnails ul li img:hover {
+    transform: scale(1.2); 
+}
+
+#image-swap-page #image {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+    border: 3px solid #888; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+#image-swap-page #caption {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #444;
+    text-align: center; 
+}
+
+
+/* Form Validation Page Styles */
+#reservation_form {
+    padding-left: 40px;
+}
+
+#reservation-page h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+}
+
+#reservation-page h2 {
+    padding: 20px;
+}
+
+#reservation-page fieldset {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    padding: 1em;
+}
+
+#reservation-page legend {
+    color: #0a66c8;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+
+#reservation-page label {
+    display: inline-block;
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+
+#reservation-page input, #reservation-page select {
+    margin-left: 1em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+}
+
+#reservation-page input {
+    width: 14em;	
+}
+
+#reservation-page input.left {
+	width: 1em;
+	padding-left: 0;
+}
+
+#reservation-page p {
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+
+#adults, #children {
+	width: 35px;
+    margin-bottom: 1em;
+}
+
+#smoking {
+	width: 1em;
+	margin-left: 0;
+}
+
+#submit {
+	margin-left: 0;
+	width: 10em;
+}
+
+#reservation-page span {
+	color: red;
+}
+
+#reservation-page input.error, #reservation-page select.error {
+    border: 2px solid red;
+}
+
+#reservation-page span.error {
+    color: red;
+    font-size: 12px;
+}
+
